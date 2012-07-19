@@ -1,0 +1,3 @@
+C:\python26\python.exe D:\workspace\LolGameAssistant\emptybox\setup.py py2exe
+
+C:\python26\python.exe C:\users\jake\workspace\LolGameAssistant\emptybox\setup.py py2exe

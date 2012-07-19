@@ -1,0 +1,622 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>367</width>
+    <height>313</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>367</width>
+    <height>313</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>367</width>
+    <height>313</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>League of Legends Item Changer</string>
+  </property>
+  <property name="sizeGripEnabled">
+   <bool>false</bool>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <layout class="QHBoxLayout" name="horizontalLayout_2">
+     <item>
+      <widget class="QLineEdit" name="pathEdit">
+       <property name="text">
+        <string>Path to League Client</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="browseButton">
+       <property name="text">
+        <string>Browse</string>
+       </property>
+       <property name="autoDefault">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="1" column="0">
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QComboBox" name="champBox">
+       <item>
+        <property name="text">
+         <string>Champion</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Ahri</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Akali</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Alistar</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Amumu</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Anivia</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Annie</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Ashe</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Blitzcrank</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Brand</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Caitlyn</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Cassiopeia</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Cho'Gath</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Corki</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Darius</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Dr. Mundo</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Draven</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Evelynn</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Ezreal</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Fiddlesticks</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Fiora</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Fizz</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Galio</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Gangplank</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Gragas</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Graves</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Hecarim</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Heimerdinger</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Irelia</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Janna</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Jarvan IV</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Jax</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Karma</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Karthus</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Kassadin</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Katarina</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Kayle</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Kennen</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Kog'Maw</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>LeBlanc</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Lee Sin</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Leona</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Lulu</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Lux</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Malphite</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Malzahar</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Maokai</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Master Yi</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Miss Fortune</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Mordekaiser</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Morgana</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Nasus</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Nautilus</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Nidalee</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Nocturne</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Nunu</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Olaf</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Orianna</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Pantheon</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Poppy</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Rammus</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Renekton</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Riven</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Rumble</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Ryze</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Sejuani</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Shaco</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Shen</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Shyvana</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Singed</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Sion</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Sivir</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Skarner</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Sona</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Soraka</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Swain</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Talong</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Taric</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Teemo</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Tristana</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Trundle</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Tryndamere</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Twisted Fate</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Twitch</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Udyr</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Urgot</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Varus</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Vayne</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Veigar</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Viktor</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>New Item</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Vladimir</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Volibear</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Warwick</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Wukong</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Xerath</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Xin Zhao</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Yorick</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Ziggs</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Zilean</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Zyra</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="fiveBox">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="oneBox">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="twoBox">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="sixBox">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="threeBox">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="fourBox">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="2" column="0">
+    <widget class="QPushButton" name="saveButton">
+     <property name="text">
+      <string>Save</string>
+     </property>
+     <property name="default">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
