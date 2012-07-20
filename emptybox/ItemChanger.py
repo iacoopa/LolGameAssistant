@@ -143,7 +143,7 @@ class ItemChanger(QDialog, ui_ItemChanger.Ui_Dialog):
         self.path = QDir(path)
         
         if self.path.dirName() == 'League of Legends':
-            self.path = QDir(path + "\\RADS\\solutions\\lol_game_client_sln\\releases\\0.0.0.170\\deploy\\DATA\\characters")
+            self.path = QDir(path + "\\RADS\\solutions\\lol_game_client_sln\\releases\\0.0.0.165\\deploy\\DATA\\characters")
         elif self.path.dirName == 'characters':
             self.path = QDir(path)
         self.pathEdit.setText(self.path.absolutePath())
@@ -162,11 +162,16 @@ class ItemChanger(QDialog, ui_ItemChanger.Ui_Dialog):
             file.close()
             return
 
+
     def saveItems(self):
-        inifile = self.pathEdit.text() + "//" + self.champBox.currentText() + "//RecItemsCLASSIC.ini"
+        champ = self.chambox.currentText()
+        champ = champ.replace("'", "")
+        champ = champ.replace(" ", "")
+        inifile = self.pathEdit.text() + "//" + champ + "//RecItemsCLASSIC.ini"
+
         
-        if not os.path.exists(self.pathEdit.text() + "//" + self.champBox.currentText()):
-            os.makedirs(self.pathEdit.text() + "//" + self.champBox.currentText())
+        if not os.path.exists(self.pathEdit.text() + "//" + champ):
+            os.makedirs(self.pathEdit.text() + "//" + champ))
         
         file = open(inifile, 'w')
         
