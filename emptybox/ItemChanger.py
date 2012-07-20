@@ -143,7 +143,7 @@ class ItemChanger(QDialog, ui_ItemChanger.Ui_Dialog):
         self.path = QDir(path)
         
         if self.path.dirName() == 'League of Legends':
-            self.path = QDir(path + "\\RADS\\solutions\\lol_game_client_sln\\releases\\0.0.0.165\\deploy\\DATA\\characters")
+            self.path = QDir(path + "\\RADS\\solutions\\lol_game_client_sln\\releases\\0.0.0.170\\deploy\\DATA\\characters")
         elif self.path.dirName == 'characters':
             self.path = QDir(path)
         self.pathEdit.setText(self.path.absolutePath())
